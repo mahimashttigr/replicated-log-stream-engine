@@ -1,6 +1,7 @@
 com\yourname\dlog\log\PartitionLog.class
 com\yourname\dlog\broker\BrokerClient.class
 com\yourname\dlog\broker\Producer.class
+com\yourname\dlog\bench\GeneratorPreview.class
 com\yourname\dlog\broker\ClusterMetadata.class
 com\yourname\dlog\broker\HeartbeatMonitor.class
 com\yourname\dlog\broker\Response.class
@@ -8,7 +9,9 @@ com\yourname\dlog\broker\ManualClientTest.class
 com\yourname\dlog\broker\BrokerServer.class
 com\yourname\dlog\broker\Request.class
 com\yourname\dlog\broker\HeartbeatDemo.class
+com\yourname\dlog\bench\EventGenerator.class
 com\yourname\dlog\broker\ClusterMetadata$BrokerAddress.class
+com\yourname\dlog\bench\SensorEvent.class
 com\yourname\dlog\log\Record.class
 com\yourname\dlog\broker\Partitioner.class
 com\yourname\dlog\broker\FailoverCoordinator.class
