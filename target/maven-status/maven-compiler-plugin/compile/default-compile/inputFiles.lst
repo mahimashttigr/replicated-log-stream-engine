@@ -1,5 +1,11 @@
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\StreamAggregator.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowAggregate.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowFlusher.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowKey.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\EventGenerator.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\EventSerializer.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\GeneratorPreview.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\PipelineDemo.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\SensorEvent.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\BrokerClient.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\BrokerServer.java
@@ -13,5 +19,6 @@ C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\Pa
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\Producer.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\Request.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\Response.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\consumer\ConsumerWorker.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\log\PartitionLog.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\log\Record.java
