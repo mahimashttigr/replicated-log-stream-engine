@@ -64,22 +64,24 @@ public class BrokerServer {
     }
 
     private void handleClient(Socket socket) {
-        try (socket;
-             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-             PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
+    try (socket;
+         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+         PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
-            String line = in.readLine();
-            if (line == null) return;
-
+        String line;
+        while ((line = in.readLine()) != null) {  // loop: handle multiple requests per connection
             Request request = mapper.readValue(line, Request.class);
             Response response = handleRequest(request);
-
             out.println(mapper.writeValueAsString(response));
+        }
+        // readLine() returns null when client closes connection - normal, not an error
 
-        } catch (IOException e) {
+    } catch (IOException e) {
+        if (running) {
             System.err.println("Error handling client: " + e.getMessage());
         }
     }
+}
     /**
      * Promotes this broker to LEADER for the given partition. Called when
      * this broker (acting as a follower) detects via HeartbeatMonitor that

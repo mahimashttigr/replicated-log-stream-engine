@@ -1,5 +1,7 @@
 com\yourname\dlog\log\PartitionLog.class
 com\yourname\dlog\broker\BrokerClient.class
+com\yourname\dlog\bench\FailoverUnderLoadDemo.class
+com\yourname\dlog\bench\BenchmarkRunner.class
 com\yourname\dlog\bench\GeneratorPreview.class
 com\yourname\dlog\broker\ClusterMetadata.class
 com\yourname\dlog\aggregator\WindowKey.class
@@ -12,7 +14,9 @@ com\yourname\dlog\broker\ClusterMetadata$BrokerAddress.class
 com\yourname\dlog\aggregator\WindowFlusher.class
 com\yourname\dlog\bench\SensorEvent.class
 com\yourname\dlog\consumer\ConsumerWorker.class
+com\yourname\dlog\bench\BenchmarkRunner$BenchmarkResult.class
 com\yourname\dlog\aggregator\WindowAggregate.class
+com\yourname\dlog\bench\LatencyTracker.class
 com\yourname\dlog\bench\PipelineDemo.class
 com\yourname\dlog\aggregator\StreamAggregator$FlushedWindow.class
 com\yourname\dlog\broker\Producer.class

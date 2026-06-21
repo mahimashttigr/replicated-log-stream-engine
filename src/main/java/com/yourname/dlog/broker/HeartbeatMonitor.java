@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class HeartbeatMonitor {
 
     private static final long HEARTBEAT_INTERVAL_MS = 1000;
-    private static final int MAX_MISSED_HEARTBEATS = 3;
+    private static final int MAX_MISSED_HEARTBEATS = 5;
 
     private final Map<String, ClusterMetadata.BrokerAddress> peers = new ConcurrentHashMap<>();
     private final Map<String, Long> lastSuccessfulPing = new ConcurrentHashMap<>();

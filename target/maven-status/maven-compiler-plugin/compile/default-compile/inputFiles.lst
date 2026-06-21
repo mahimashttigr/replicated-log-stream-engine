@@ -2,9 +2,12 @@ C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregato
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowAggregate.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowFlusher.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\aggregator\WindowKey.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\BenchmarkRunner.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\EventGenerator.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\EventSerializer.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\FailoverUnderLoadDemo.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\GeneratorPreview.java
+C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\LatencyTracker.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\PipelineDemo.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\bench\SensorEvent.java
 C:\Users\smahi\OneDrive\Desktop\RESUME\src\main\java\com\yourname\dlog\broker\BrokerClient.java
